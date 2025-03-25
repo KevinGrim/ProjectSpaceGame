@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 285.94998, g: 331.15042, b: 415.26178, a: 1}
+  m_IndirectSpecularColor: {r: 285.97342, g: 331.16483, b: 415.27155, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 64161490}
   - component: {fileID: 64161489}
   - component: {fileID: 64161488}
+  - component: {fileID: 64161492}
   m_Layer: 0
   m_Name: Spaceship
   m_TagString: Untagged
@@ -149,7 +150,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 64161487}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 220ff8a699be3d34eb1d772ee2c585aa, type: 3}
   m_Name: 
@@ -184,7 +185,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 72
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!64 &64161490
 MeshCollider:
@@ -232,6 +233,26 @@ Transform:
   - {fileID: 147530788}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &64161492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64161487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30ace8e66c75be04ebf0aae76be9a141, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSpeed: 13
+  boostMultiplier: 3
+  strafeSpeed: 5
+  acceleration: 5
+  rotationSpeed: 65
+  rollSpeed: 70
+  damping: 2
+  useInertia: 1
 --- !u!1 &147530787
 GameObject:
   m_ObjectHideFlags: 0
