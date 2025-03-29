@@ -68,7 +68,7 @@ Material:
     - _BUILTIN_QueueControl: -1
     - _BUILTIN_QueueOffset: 0
     - _BlendMode: 0
-    - _Celldensity: 20
+    - _Celldensity: 10
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
     - _CullModeForward: 2
@@ -88,7 +88,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Speed: 2
+    - _Speed: 1
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 1
@@ -115,8 +115,8 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _CoronaColor: {r: 0.990566, g: 0.8701443, b: 0, a: 0}
+    - _CoronaColor: {r: 1.4980392, g: 0.9492373, b: 0.3886423, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SurfaceColor: {r: 5.960784, g: 1.254902, b: 0, a: 0}
+    - _SurfaceColor: {r: 1.4980392, g: 0.8571339, b: 0, a: 0}
   m_BuildTextureStacks: []
