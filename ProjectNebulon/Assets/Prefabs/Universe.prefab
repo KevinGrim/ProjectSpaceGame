@@ -403,10 +403,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8c481d15dac821a419f927c1dc5b623d, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 96a2db0f06f79f446b18bff8de580ca3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c481d15dac821a419f927c1dc5b623d, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 96a2db0f06f79f446b18bff8de580ca3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8c481d15dac821a419f927c1dc5b623d, type: 2}
     - target: {fileID: 919132149155446097, guid: 96a2db0f06f79f446b18bff8de580ca3,
         type: 3}
       propertyPath: m_Name
       value: NebulaHintergrund
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 96a2db0f06f79f446b18bff8de580ca3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -480,6 +495,16 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: 96a2db0f06f79f446b18bff8de580ca3,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 515aca1e9a1b6bd4eb3b0ad5e31d0a40, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 96a2db0f06f79f446b18bff8de580ca3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 515aca1e9a1b6bd4eb3b0ad5e31d0a40, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 96a2db0f06f79f446b18bff8de580ca3,
+        type: 3}
+      propertyPath: m_Materials.Array.data[2]
       value: 
       objectReference: {fileID: 2100000, guid: 515aca1e9a1b6bd4eb3b0ad5e31d0a40, type: 2}
     - target: {fileID: 919132149155446097, guid: 96a2db0f06f79f446b18bff8de580ca3,
